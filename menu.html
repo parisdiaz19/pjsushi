@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  
+    <script src="https://kit.fontawesome.com/920fff83c0.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+<!--Notification-->
+<h6 class="center-align">We are open during our regular hours. Call to place a pick up order!</h6>
+<!--Navbar-->
+  <nav>
+    <div class="nav-wrapper black">
+      <a href="#" class="brand-logo center">PJ Sushi</a>
+      <a href="#" data-target='mobile-demo' class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+      </ul>
+    </div>
+  </nav>
+  <script>
+    $(document).ready(function(){
+       $('.sidenav').sidenav();
+   });
+ </script>
+
+ <ul class="sidenav" id="mobile-demo">
+   <li><a href="index.html">Home</a></li>
+   <li><a href="menu.html">Menu</a></li>
+ </ul>
+
+ 
+  <!--Main Content-->
+
+  <main>
+      <div class="container">
+          <div class="row">
+              <h3 class="center-align">Our Menu</h3>
+              <div class="col s4">
+                  <img src="img/menu1.jpg" alt="" class="responsive-img materialboxed">
+              </div>
+              <div class="col s4">
+                <img src="img/menu2.jpg" alt="" class="responsive-img materialboxed">
+              </div>
+              <div class="col s4">
+                <img src="img/menu3.jpg" alt="" class="responsive-img materialboxed">
+              </div>
+          </div>
+          <div class="row">
+              <h3 class="center-align">Photos</h3>
+              <div class="col s4">
+                <img src="img/menu4.jpg" alt="" class="responsive-img materialboxed">
+              </div>
+              <div class="col s4">
+                <img src="img/menu5.jpg" alt="" class="responsive-img materialboxed">
+              </div>
+              <div class="col s4">
+                <img src="img/menu6.jpg" alt="" class="responsive-img materialboxed">
+              </div>
+          </div>
+          <div class="row">
+            
+            <div class="col s4">
+              <img src="img/menu7.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s4">
+              <img src="img/menu=8.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+            <div class="col s4">
+              <img src="img/menu9.jpg" alt="" class="responsive-img materialboxed">
+            </div>
+        </div>
+      </div>
+  </main>
+
+  <script>
+        $(document).ready(function(){
+            $('.materialboxed').materialbox();
+         });
+        
+  </script>
+
+  <!--Footer-->
+<footer class="page-footer black">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <p class="white-text center-align">2372 Lemoine Avenue, Fort Lee, NJ 07024 | 201-315-1734</p>
+                <ul>
+                    <li class="center-align"><a href="https://www.yelp.com/biz/pj-sushi-fort-lee" i class="fab fa-yelp fa-2x"></i></a></li>
+                    <li class="center-align"><a href=""></a></li>
+                    <li class="center-align"><a href=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright black">
+        <div class="container"></div>
+    </div>
+</footer>
+ 
+
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>        
+</body>
+</html>
